@@ -4,8 +4,11 @@
 const http = require("http");
 
 const chalk = require('chalk');
-console.log(chalk.blue('Hello, npm!'));
-console.log(chalk.red('Hello World!'));
+const superb = require('superb');
+
+console.log(chalk.blue('Hello, ' + superb.random() + ' npm!'));
+console.log("You are " + superb.random() + "!");
+
 
 const oreja = (request, response) => {
     response.writeHead(200,('Content-Type', 'text/plain'));
