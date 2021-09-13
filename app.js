@@ -1,5 +1,5 @@
-// const { miVar } = require("./prueba");
-// console.log(miVar);
+const { miVar } = require("./prueba");
+console.log(miVar);
 
 const http = require("http");
 
