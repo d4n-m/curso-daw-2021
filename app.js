@@ -3,6 +3,9 @@
 
 const http = require("http");
 
+const chalk = require('chalk');
+console.log(chalk.blue('Hello, npm!'));
+
 const oreja = (request, response) => {
     response.writeHead(200,('Content-Type', 'text/plain'));
     response.end("Hola Mundo DAW!")
