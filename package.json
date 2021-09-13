@@ -13,8 +13,5 @@
     "color"
   ],
   "author": "dm",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.2"
-  }
+  "license": "ISC"
 }
