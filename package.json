@@ -1,6 +1,7 @@
 {
   "name": "myFirstApp",
   "version": "1.0.0",
+  "type": "module",
   "description": "mi primer aplicacion",
   "main": "prueba.js",
   "scripts": {
